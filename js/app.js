@@ -47,10 +47,9 @@ var showAnswerers = function (answerers) {
     result.find('.postCount').text(answerers.post_count);
 
     // set the score property in result
-    result.find('.score').text(answerers.user.score);
+    result.find('.score').text(answerers.score);
 
-    //set the reputation property
-    result.find('.reputation').text(answerers.user.reputation);
+
 
     return result;
 };
